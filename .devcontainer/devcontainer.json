@@ -5,6 +5,11 @@
     "dockerfile": "Dockerfile"
   },
   "runArgs": ["--runtime=nvidia", "--gpus=all"],
+  "features": {
+    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {
+      "theme": "kennethreitz"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
