@@ -5,10 +5,10 @@ LLMs-from-scratch Repo'
 Parameters:
   NotebookName:
     Type: String
-    Default: 'LLMsFromScratchNotebook'
+    Default: 'TestingNotebook'
   DefaultRepoUrl:
     Type: String
-    Default: 'https://github.com/rasbt/LLMs-from-scratch.git'
+    Default: 'https://github.com/trenton-p/LLMs-from-scratch.git'
 
 Resources:
   SageMakerExecutionRole:
